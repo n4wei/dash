@@ -15,7 +15,7 @@ var Util = {
         let parts = new Date(timeStr).toLocaleTimeString('en-US').split(':');
         return parts[0] + parts[2].split(' ')[1];
     },
-    
+
     formatTime: function(timeStr) {
         return new Date(timeStr).toLocaleTimeString('en-US', timeFormatOpts);
     },
@@ -23,7 +23,11 @@ var Util = {
     formatDate: function(timeStr) {
         return new Date(timeStr).toLocaleDateString('en-US', dateFormatOpts)
     },
-    
+
+    formatTimeLexi: function(timeStr) {
+        return new Date(timeStr).toLocaleTimeString('en-US', {hour12:false});
+    },
+
     roundDecimals: function(num, decimals) {
         return Number(Math.round(num+'e'+decimals)+'e-'+decimals);
     },

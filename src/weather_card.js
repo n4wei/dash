@@ -1,13 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './css/weather-icons.min.css';
+import Util from './util.js';
 
 function WeatherCardHeader(props) {
     let icon;
-    let convertToTime = (timeStr) => new Date(timeStr).toLocaleTimeString('en-US', {hour12:false});
-    let currentTime = convertToTime(props.data.observation_time.value);
-    let sunriseTime = convertToTime(props.data.sunrise.value);
-    let sunsetTime = convertToTime(props.data.sunset.value);
+    let currentTime = Util.formatTimeLexi(props.data.observation_time.value);
+    let sunriseTime = Util.formatTimeLexi(props.data.sunrise.value);
+    let sunsetTime = Util.formatTimeLexi(props.data.sunset.value);
     let dayTime = currentTime >= sunriseTime && currentTime < sunsetTime ? true : false;
 
     switch(props.data.weather_code.value) {

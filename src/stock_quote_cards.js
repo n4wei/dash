@@ -36,17 +36,17 @@ class StockQuoteCards extends React.Component {
 
     refreshStockQuotes() {
         let stockQuotes = [];
+
         stocks.forEach((stock) => {
             this.getStockQuoteDataFromAPI(stock.symbol).then((data) => {
                 console.log('new', data);
                 stockQuotes.push({
                     symbol: stock.symbol === '^GSPC' ? 'SP500' : stock.symbol,
-                    time: Util.formatTime(data.t*1000),
                     current: Util.roundDecimals(data.c, stock.decimals),
+                    time: Util.formatTime(data.t*1000),
                     open: Util.roundDecimals(data.o, stock.decimals),
                     low: Util.roundDecimals(data.l, stock.decimals),
                     high: Util.roundDecimals(data.h, stock.decimals),
-                    prev_close: Util.roundDecimals(data.pc, stock.decimals),
                 });
 
                 if (stockQuotes.length === stocks.length) {
@@ -61,8 +61,7 @@ class StockQuoteCards extends React.Component {
     render() {
         let stockQuoteCards;
         if (this.state.stockQuotes.length > 0) {
-            const stockQuoteData = this.state.stockQuotes.slice();
-            stockQuoteCards = stockQuoteData.map((stockQuoteData, i) => {
+            stockQuoteCards = this.state.stockQuotes.slice().map((stockQuoteData, i) => {
                 return <StockQuoteCard key={i} data={stockQuoteData}></StockQuoteCard>;
             });
         }

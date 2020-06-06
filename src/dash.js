@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './css/weather-icons.min.css';
 
 import Clock from './clock.js';
 import WeatherCards from './weather_cards.js';
