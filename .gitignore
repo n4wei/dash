@@ -1,5 +1,5 @@
 # secrets
-/src/secrets.json
+/src/config/secrets.json
 
 # dependencies
 /node_modules
