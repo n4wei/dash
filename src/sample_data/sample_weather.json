@@ -1,0 +1,6136 @@
+[
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 83.7,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 32,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 54,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "observation_time": {
+      "value": "2020-06-05T17:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 27
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "time": "1PM",
+    "uv_index": 9.8,
+    "pollen_g": 5,
+    "pollen_t": 5,
+    "pollen_w": "-"
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 86,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 30,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 30,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "observation_time": {
+      "value": "2020-06-05T18:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 24
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "time": "2PM",
+    "uv_index": 9.9,
+    "pollen_g": 5,
+    "pollen_t": 5,
+    "pollen_w": "-"
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 87,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 35,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 25,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "observation_time": {
+      "value": "2020-06-05T19:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 24
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "time": "3PM",
+    "uv_index": 8.8,
+    "pollen_g": 5,
+    "pollen_t": 5,
+    "pollen_w": "-"
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 87.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 5,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 39,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 45,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "observation_time": {
+      "value": "2020-06-05T20:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 25
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "time": "4PM",
+    "uv_index": 6.7,
+    "pollen_g": 5,
+    "pollen_t": 5,
+    "pollen_w": "-"
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 76.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 5,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 75,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 45,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "observation_time": {
+      "value": "2020-06-05T21:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 26
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "time": "5PM",
+    "uv_index": 4.5,
+    "pollen_g": 5,
+    "pollen_t": 5,
+    "pollen_w": "-"
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 80.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 69,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 94,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "observation_time": {
+      "value": "2020-06-05T22:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 26
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "time": "6PM",
+    "uv_index": 2.4,
+    "pollen_g": 5,
+    "pollen_t": 5,
+    "pollen_w": "-"
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 82.51,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 53,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 45.625,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-05T10:00:15.002Z"
+    },
+    "sunset": {
+      "value": "2020-06-06T01:12:23.001Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "observation_time": {
+      "value": "2020-06-05T23:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 26
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 79.71,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 59.2,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 46,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "observation_time": {
+      "value": "2020-06-06T00:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 26
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.92,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 69,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 3,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T01:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 25
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 73.45,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 72.5,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T02:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 25
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 70.58,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 77.4,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T03:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 24
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68.77,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 81.7,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T04:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 22
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 67.41,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 85.8,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T05:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 65.89,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 89.7,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T06:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 64.62,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 92.3,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T07:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 63.49,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 93.5,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "observation_time": {
+      "value": "2020-06-06T08:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 94,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 2,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T09:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 57.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 94,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 2,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T10:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 23
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 94,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 1,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T11:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 24
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 62.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 90,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 1,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T12:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 25
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 64.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 86,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T13:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 25
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 66.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 82,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 6,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T14:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 24
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 74,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 4,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T15:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 23
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 70,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 3,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T16:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 63,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 2,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T17:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 58,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 2,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T18:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 59,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T19:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 60,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T20:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 60,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T21:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 62,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T22:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 69,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-06T09:59:57.485Z"
+    },
+    "sunset": {
+      "value": "2020-06-07T01:13:03.012Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-06T23:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 17
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 66.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 75,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 11,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T00:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 15
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 62.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 80,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T01:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 13
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 60.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 79,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 50,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T02:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 11
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 57.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 87,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 33,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T03:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 55.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 92,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 25,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T04:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 8
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 92,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 20,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T05:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 92,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 17,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T06:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 90,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T07:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 11
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 51.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 90,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T08:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 12
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 50,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 89,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T09:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 13
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 50,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 90,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 2,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T10:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 14
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 51.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 92,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 22,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T11:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 14
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 86,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 35,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T12:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 13
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 57.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 78,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T13:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 12
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 72,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T14:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 11
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 62.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 68,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T15:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 66.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 64,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T16:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 60,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 89,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T17:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 57,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 77,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T18:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 56,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T19:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 56,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T20:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 58,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T21:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 60,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T22:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 65,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 1,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-07T09:59:42.093Z"
+    },
+    "sunset": {
+      "value": "2020-06-08T01:13:41.442Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-07T23:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 66.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 74,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 1,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T00:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 60.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 81,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T01:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 57.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 86,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T02:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 55.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 89,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T03:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 55.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 91,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T04:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 91,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T05:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 85,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T06:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 79,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 5,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T07:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 51.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 79,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 32,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T08:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 9
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 51.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 80,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 34,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T09:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 10
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 51.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 84,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 25,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T10:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 11
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 53.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 87,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 20,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T11:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 12
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 57.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 83,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 17,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T12:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 13
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 60.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 79,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T13:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 14
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 64.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 73,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T14:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 15
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 69,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 4,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T15:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 15
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 65,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 4,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T16:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 16
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 73.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 62,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 3,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T17:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 16
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 73.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 62,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 2,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T18:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 16
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 62,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T19:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 17
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 62,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T20:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 17
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 65,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T21:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 68,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T22:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 73.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 72,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-08T09:59:28.827Z"
+    },
+    "sunset": {
+      "value": "2020-06-09T01:14:18.248Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-08T23:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 17
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 69.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 78,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T00:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 64.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 81,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 0,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T01:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 60.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 81,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 30,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T02:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 60.8,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 83,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 54,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "partly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T03:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 83,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 65,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T04:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 84,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 72,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T05:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 83,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 77,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T06:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 85,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T07:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 87,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T08:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 87,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T09:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 87,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 83,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T10:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 59,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 85,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 82,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T11:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 62.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 80,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 71,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T12:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 68,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 74,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T13:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 71,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 87,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T14:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 22
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 69,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 73,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T15:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 22
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 77,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 67,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 70,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T16:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 22
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 80.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 65,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 76,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T17:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 22
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 82.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 0,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 64,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 73,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "mostly_cloudy"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T18:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 84.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "none"
+    },
+    "precipitation_probability": {
+      "value": 40,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 65,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 3,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "clear"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T19:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 21
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 82.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 50,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 73,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 51,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T20:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 80.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 55,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 77,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 68,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T21:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 20
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 80.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 55,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 77,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 76,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T22:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 80.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 50,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 77,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 81,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-09T09:59:17.687Z"
+    },
+    "sunset": {
+      "value": "2020-06-10T01:14:53.388Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-09T23:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 77,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 45,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 80,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 83,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-10T09:59:08.671Z"
+    },
+    "sunset": {
+      "value": "2020-06-11T01:15:26.820Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-10T00:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 19
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 40,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 83,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-10T09:59:08.671Z"
+    },
+    "sunset": {
+      "value": "2020-06-11T01:15:26.820Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-10T01:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": 18
+    },
+    "epa_primary_pollutant": {
+      "value": "pm25"
+    },
+    "epa_health_concern": {
+      "value": "Good"
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 75.2,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 50,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 82,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-10T09:59:08.671Z"
+    },
+    "sunset": {
+      "value": "2020-06-11T01:15:26.820Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-10T02:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": null
+    },
+    "epa_primary_pollutant": {
+      "value": null
+    },
+    "epa_health_concern": {
+      "value": null
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 73.4,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 70,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 81,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-10T09:59:08.671Z"
+    },
+    "sunset": {
+      "value": "2020-06-11T01:15:26.820Z"
+    },
+    "weather_code": {
+      "value": "drizzle"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-10T03:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": null
+    },
+    "epa_primary_pollutant": {
+      "value": null
+    },
+    "epa_health_concern": {
+      "value": null
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 80,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 94,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-10T09:59:08.671Z"
+    },
+    "sunset": {
+      "value": "2020-06-11T01:15:26.820Z"
+    },
+    "weather_code": {
+      "value": "rain_light"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-10T04:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": null
+    },
+    "epa_primary_pollutant": {
+      "value": null
+    },
+    "epa_health_concern": {
+      "value": null
+    }
+  },
+  {
+    "lon": -84.38415359999999,
+    "lat": 42.7393024,
+    "temp": {
+      "value": 71.6,
+      "units": "F"
+    },
+    "precipitation_type": {
+      "value": "rain"
+    },
+    "precipitation_probability": {
+      "value": 95,
+      "units": "%"
+    },
+    "humidity": {
+      "value": 95,
+      "units": "%"
+    },
+    "cloud_cover": {
+      "value": 100,
+      "units": "%"
+    },
+    "sunrise": {
+      "value": "2020-06-10T09:59:08.671Z"
+    },
+    "sunset": {
+      "value": "2020-06-11T01:15:26.820Z"
+    },
+    "weather_code": {
+      "value": "rain_light"
+    },
+    "pollen_tree": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_weed": {
+      "value": null,
+      "units": "Climacell Pollen Index"
+    },
+    "pollen_grass": {
+      "value": 5,
+      "units": "Climacell Pollen Index"
+    },
+    "observation_time": {
+      "value": "2020-06-10T05:00:00.000Z"
+    },
+    "epa_aqi": {
+      "value": null
+    },
+    "epa_primary_pollutant": {
+      "value": null
+    },
+    "epa_health_concern": {
+      "value": null
+    }
+  }
+]
