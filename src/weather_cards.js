@@ -2,14 +2,14 @@ import React from 'react';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import CardDeck from 'react-bootstrap/CardDeck';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
 
 import WeatherCard from './weather_card.js';
 import Util from './util.js';
 import Secrets from './config/secrets.json';
 
-const numWeatherHoursToDisplay = 6;
+const numWeatherHoursToDisplay = 12;
 
 class WeatherCards extends React.Component {
     constructor(props) {
@@ -181,7 +181,7 @@ class WeatherCards extends React.Component {
                     <Col><h2>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2></Col>
                     <Col><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Col>
                 </Row>
-                <Row><CardDeck>{weatherCards}</CardDeck></Row>
+                <Row><CardGroup>{weatherCards}</CardGroup></Row>
             </>
         );
     };
