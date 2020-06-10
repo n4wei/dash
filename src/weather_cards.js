@@ -52,6 +52,7 @@ class WeatherCards extends React.Component {
             hourData.cloud_cover.value = Math.round(hourData.cloud_cover.value);
             hourData.precipitation_probability.value = Math.round(hourData.precipitation_probability.value);
             hourData.humidity.value = Math.round(hourData.humidity.value);
+            hourData.epa_aqi.value = Math.round(hourData.epa_aqi.value);
             hourData.pollen_g = hourData.pollen_grass.value === null ? '-' : hourData.pollen_grass.value;
             hourData.pollen_t = hourData.pollen_tree.value === null ? '-' : hourData.pollen_tree.value;
             hourData.pollen_w = hourData.pollen_weed.value === null ? '-' : hourData.pollen_weed.value;
