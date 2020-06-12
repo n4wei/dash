@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Button from 'react-bootstrap/Button';
+import Collapse from 'react-bootstrap/Collapse';
 
 import StockQuoteCard from './stock_quote_card.js';
 import Util from './util.js';
@@ -21,6 +22,7 @@ class StockQuoteCards extends React.Component {
 
         this.state = {
             stockQuotes: [],
+            isVisible: true,
         };
 
         this.refreshStockQuotes();
@@ -52,9 +54,17 @@ class StockQuoteCards extends React.Component {
                 if (stockQuotes.length === stocks.length) {
                     this.setState({
                         stockQuotes: stockQuotes,
+                        isVisible: this.state.isVisible,
                     });
                 }
             });
+        });
+    };
+
+    toggleIsVisible() {
+        this.setState({
+            stockQuotes: this.state.stockQuotes,
+            isVisible: !this.state.isVisible,
         });
     };
 
@@ -69,10 +79,12 @@ class StockQuoteCards extends React.Component {
         return (
             <>
                 <Row>
-                    <Col><h2>Stock Quotes</h2></Col>
+                    <Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Stock Quotes</h2></Col>
                     <Col><Button variant='primary' onClick={()=>this.refreshStockQuotes()}><i className='wi wi-refresh'/></Button></Col>
                 </Row>
-                <Row><CardDeck>{stockQuoteCards}</CardDeck></Row>
+                <Collapse in={this.state.isVisible}>
+                    <Row><CardDeck>{stockQuoteCards}</CardDeck></Row>
+                </Collapse>
             </>
         );
     };

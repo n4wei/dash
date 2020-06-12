@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
+import Collapse from 'react-bootstrap/Collapse';
 
 import WeatherCard from './weather_card.js';
 import Util from './util.js';
@@ -20,6 +21,7 @@ class WeatherCards extends React.Component {
             weather_original: [],
             uv_original: [],
             weather: [],
+            isVisible: true,
         };
 
         this.refreshWeather();
@@ -102,6 +104,7 @@ class WeatherCards extends React.Component {
                     weather_original: weatherData_original.slice(),
                     uv_original: newUVData.slice(),
                     weather: this.mergeUVData(newUVData, weatherData),
+                    isVisible: this.state.isVisible,
                 });
             });
         } else {
@@ -110,6 +113,7 @@ class WeatherCards extends React.Component {
                 weather_original: weatherData_original.slice(),
                 uv_original: uv_original,
                 weather: this.mergeUVData(uv_original, weatherData),
+                isVisible: this.state.isVisible,
             });
         }
     };
@@ -154,6 +158,7 @@ class WeatherCards extends React.Component {
                     weather_original: this.state.weather_original,
                     uv_original: this.state.uv_original,
                     weather: this.state.weather,
+                    isVisible: this.state.isVisible,
                 });
     
                 this.getLatestWeatherData();
@@ -163,6 +168,16 @@ class WeatherCards extends React.Component {
         } else {
             this.getLatestWeatherData();
         }
+    };
+
+    toggleIsVisible() {
+        this.setState({
+            location: this.state.location,
+            weather_original: this.state.weather_original,
+            uv_original: this.state.uv_original,
+            weather: this.state.weather,
+            isVisible: !this.state.isVisible,
+        });
     };
 
     render() {
@@ -179,10 +194,12 @@ class WeatherCards extends React.Component {
         return (
             <>
                 <Row>
-                    <Col><h2>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2></Col>
+                    <Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2></Col>
                     <Col><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Col>
                 </Row>
-                <Row><CardGroup>{weatherCards}</CardGroup></Row>
+                <Collapse in={this.state.isVisible}>
+                    <Row><CardGroup>{weatherCards}</CardGroup></Row>
+                </Collapse>
             </>
         );
     };
