@@ -6,18 +6,17 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
-import WeatherCard from './weather_card.js';
+import WeatherHourlyCard from './weather_hourly_card.js';
 import Util from './util.js';
 import Secrets from './config/secrets.json';
 
-const numWeatherHoursToDisplay = 12;
+const numHoursToDisplay = 12;
 
-class WeatherCards extends React.Component {
+class WeatherHourlyCards extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            location: {},
             weather_original: [],
             uv_original: [],
             weather: [],
@@ -27,8 +26,14 @@ class WeatherCards extends React.Component {
         this.refreshWeather();
     };
 
+    componentDidUpdate(prevProps) {
+        if (this.props.location.lat !== prevProps.location.lat || this.props.location.lng !== prevProps.location.lng) {
+            this.refreshWeather();
+        }
+    };
+
     async getWeatherDataFromAPI() {
-        const response = await fetch('https://api.climacell.co/v3/weather/forecast/hourly?lat='+this.state.location.lat+'&lon='+this.state.location.lng+'&unit_system=us&start_time=now&fields=temp%2Chumidity%2Cprecipitation_type%2Cprecipitation_probability%2Csunrise%2Csunset%2Ccloud_cover%2Cweather_code%2Cepa_aqi%2Cepa_primary_pollutant%2Cepa_health_concern%2Cpollen_tree%2Cpollen_weed%2Cpollen_grass&apikey='+Secrets.climacell_token, {
+        const response = await fetch('https://api.climacell.co/v3/weather/forecast/hourly?lat='+this.props.location.lat+'&lon='+this.props.location.lng+'&unit_system=us&start_time=now&fields=temp%2Chumidity%2Cprecipitation_type%2Cprecipitation_probability%2Csunrise%2Csunset%2Ccloud_cover%2Cweather_code%2Cepa_aqi%2Cepa_primary_pollutant%2Cepa_health_concern%2Cpollen_tree%2Cpollen_weed%2Cpollen_grass&apikey='+Secrets.climacell_token, {
             'method': 'GET',
         })
         .catch(err => console.error(err));
@@ -36,7 +41,7 @@ class WeatherCards extends React.Component {
     };
 
     async getUVDataFromAPI() {
-        const response = await fetch('https://api.openuv.io/api/v1/forecast?lat='+this.state.location.lat+'&lng='+this.state.location.lng, {
+        const response = await fetch('https://api.openuv.io/api/v1/forecast?lat='+this.props.location.lat+'&lng='+this.props.location.lng, {
             'method': 'GET',
             'headers': {
                 'x-access-token': Secrets.openuv_token,
@@ -47,7 +52,7 @@ class WeatherCards extends React.Component {
     }
 
     formatWeatherData(weatherData) {
-        return weatherData.slice(0,numWeatherHoursToDisplay).map((hourData) => {
+        return weatherData.slice(0,numHoursToDisplay).map((hourData) => {
             hourData.hour = Util.formatHour(hourData.observation_time.value);
             hourData.temp.value = Util.roundDecimals(hourData.temp.value, 1);
             hourData.uv_index = '-';
@@ -100,7 +105,6 @@ class WeatherCards extends React.Component {
                 newUVData = newUVData.result;
                 console.log('new', newUVData);
                 this.setState({
-                    location: this.state.location,
                     weather_original: weatherData_original.slice(),
                     uv_original: newUVData.slice(),
                     weather: this.mergeUVData(newUVData, weatherData),
@@ -109,7 +113,6 @@ class WeatherCards extends React.Component {
             });
         } else {
             this.setState({
-                location: this.state.location,
                 weather_original: weatherData_original.slice(),
                 uv_original: uv_original,
                 weather: this.mergeUVData(uv_original, weatherData),
@@ -132,7 +135,7 @@ class WeatherCards extends React.Component {
             }
             weather_original = weather_original.slice(i-1);
             console.log('sliced', weather_original);
-            if (weather_original.length < numWeatherHoursToDisplay) {
+            if (weather_original.length < numHoursToDisplay) {
                 shouldGetNewWeatherData = true;
             }
         }
@@ -148,31 +151,13 @@ class WeatherCards extends React.Component {
     };
 
     refreshWeather() {
-        if (Object.keys(this.state.location).length === 0) {
-            navigator.geolocation.getCurrentPosition((data) => {
-                this.setState({
-                    location: {
-                        lat: data.coords.latitude,
-                        lng: data.coords.longitude,
-                    },
-                    weather_original: this.state.weather_original,
-                    uv_original: this.state.uv_original,
-                    weather: this.state.weather,
-                    isVisible: this.state.isVisible,
-                });
-    
-                this.getLatestWeatherData();
-            }, (err) => {
-                console.error(err);
-            });
-        } else {
+        if (Object.keys(this.props.location).length > 0) {
             this.getLatestWeatherData();
         }
     };
 
     toggleIsVisible() {
         this.setState({
-            location: this.state.location,
             weather_original: this.state.weather_original,
             uv_original: this.state.uv_original,
             weather: this.state.weather,
@@ -187,7 +172,7 @@ class WeatherCards extends React.Component {
             sunrise = Util.formatTime(weatherData[0].sunrise.value);
             sunset = Util.formatTime(weatherData[0].sunset.value);
             weatherCards = weatherData.map((weatherData, i) => {
-                return <WeatherCard key={i} data={weatherData}></WeatherCard>;
+                return <WeatherHourlyCard key={i} data={weatherData}></WeatherHourlyCard>;
             });
         }
 
@@ -205,4 +190,4 @@ class WeatherCards extends React.Component {
     };
 };
 
-export default WeatherCards;
+export default WeatherHourlyCards;
