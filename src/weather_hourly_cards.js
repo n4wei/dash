@@ -3,7 +3,6 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
 import WeatherHourlyCard from './weather_hourly_card.js';
@@ -151,6 +150,10 @@ class WeatherHourlyCards extends React.Component {
     };
 
     refreshWeather() {
+        if (this.refreshButton !== undefined) {
+            this.refreshButton.blur();
+        }
+
         if (Object.keys(this.props.location).length > 0) {
             this.getLatestWeatherData();
         }
@@ -189,7 +192,7 @@ class WeatherHourlyCards extends React.Component {
                         <CardGroup>
                             {weatherHourlyCards}
                             <Card className='dash-borderless'>
-                                <Card.Body><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Card.Body>
+                                <button className='dash-refresh-button dash-horizontal-offset' onClick={()=>this.refreshWeather()} ref={(element)=>this.refreshButton=element}><i className='wi wi-refresh'/></button>
                             </Card>
                         </CardGroup>
                     </Row>

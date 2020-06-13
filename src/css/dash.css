@@ -2,6 +2,11 @@
     border-color: white;
 }
 
+.dash-horizontal-offset {
+    position: relative;
+    left: 30px;
+}
+
 .dash-weather-hourly-card {
     width: 10rem;
 }
@@ -15,7 +20,7 @@
 .dash-cards-title {
     width: 100%;
     border-style: none none none solid;
-    border-width: thick;
+    border-width: 4px;
     border-radius: 0px;
     border-color: tomato;
     background-color: white;
@@ -33,6 +38,33 @@
     color: tomato;
 }
 .dash-cards-title:active {
+    border-color: tomato;
+    background-color: white;
+    color: tomato;
+}
+
+.dash-refresh-button {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: tomato;
+    background-color: white;
+    color: tomato;
+}
+.dash-refresh-button:hover {
+    border-color: white;
+    background-color: tomato;
+    color: white;
+}
+.dash-refresh-button:focus {
+    outline: none;
+    border-color: tomato;
+    background-color: white;
+    color: tomato;
+}
+.dash-refresh-button:active {
     border-color: tomato;
     background-color: white;
     color: tomato;

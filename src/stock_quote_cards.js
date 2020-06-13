@@ -3,7 +3,6 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
 import StockQuoteCard from './stock_quote_card.js';
@@ -37,6 +36,10 @@ class StockQuoteCards extends React.Component {
     };
 
     refreshStockQuotes() {
+        if (this.refreshButton !== undefined) {
+            this.refreshButton.blur();
+        }
+
         let stockQuotes = [];
 
         stocks.forEach((stock) => {
@@ -89,7 +92,7 @@ class StockQuoteCards extends React.Component {
                         <CardDeck>
                             {stockQuoteCards}
                             <Card className='dash-borderless'>
-                                <Card.Body><Button variant='primary' onClick={()=>this.refreshStockQuotes()}><i className='wi wi-refresh'/></Button></Card.Body>
+                                <button className='dash-refresh-button' onClick={()=>this.refreshStockQuotes()} ref={(element)=>this.refreshButton=element}><i className='wi wi-refresh'/></button>
                             </Card>
                         </CardDeck>
                     </Row>

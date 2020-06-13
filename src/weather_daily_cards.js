@@ -3,7 +3,6 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
 import WeatherDailyCard from './weather_daily_card.js';
@@ -40,6 +39,10 @@ class WeatherDailyCards extends React.Component {
     };
 
     refreshWeather() {
+        if (this.refreshButton !== undefined) {
+            this.refreshButton.blur();
+        }
+
         if (Object.keys(this.props.location).length > 0) {
             this.getLatestWeatherData();
         }
@@ -120,7 +123,7 @@ class WeatherDailyCards extends React.Component {
                         <CardDeck>
                             {weatherDailyCards}
                             <Card className='dash-borderless'>
-                                <Card.Body><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Card.Body>
+                                <button className='dash-refresh-button' onClick={()=>this.refreshWeather()} ref={(element)=>this.refreshButton=element}><i className='wi wi-refresh'/></button>
                             </Card>
                         </CardDeck>
                     </Row>
