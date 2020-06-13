@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -158,6 +157,7 @@ class WeatherHourlyCards extends React.Component {
     };
 
     toggleIsVisible() {
+        this.titleButton.blur();
         this.setState({
             weather_original: this.state.weather_original,
             uv_original: this.state.uv_original,
@@ -179,7 +179,11 @@ class WeatherHourlyCards extends React.Component {
 
         return (
             <>
-                <Row><Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2></Col></Row>
+                <Row>
+                    <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
+                        <h2>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2>
+                    </button>
+                </Row>
                 <Collapse in={this.state.isVisible}>
                     <Row>
                         <CardGroup>

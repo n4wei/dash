@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -93,6 +92,7 @@ class WeatherDailyCards extends React.Component {
     };
 
     toggleIsVisible() {
+        this.titleButton.blur();
         this.setState({
             weather_original: this.state.weather_original,
             weather: this.state.weather,
@@ -110,7 +110,11 @@ class WeatherDailyCards extends React.Component {
 
         return (
             <>
-                <Row><Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Daily Weather</h2></Col></Row>
+                <Row>
+                    <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
+                        <h2>Daily Weather</h2>
+                    </button>
+                </Row>
                 <Collapse in={this.state.isVisible}>
                     <Row>
                         <CardDeck>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
@@ -63,6 +62,7 @@ class StockQuoteCards extends React.Component {
     };
 
     toggleIsVisible() {
+        this.titleButton.blur();
         this.setState({
             stockQuotes: this.state.stockQuotes,
             isVisible: !this.state.isVisible,
@@ -79,7 +79,11 @@ class StockQuoteCards extends React.Component {
 
         return (
             <>
-                <Row><Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Stock Quotes</h2></Col></Row>
+                <Row>
+                    <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
+                        <h2>Stock Quotes</h2>
+                    </button>
+                </Row>
                 <Collapse in={this.state.isVisible}>
                     <Row>
                         <CardDeck>
