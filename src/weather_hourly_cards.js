@@ -94,13 +94,17 @@ class WeatherHourlyCards extends React.Component {
 
     mergeUVData(uvData, weatherData) {
         uvData.forEach((hourUVData) => {
-            let formattedHour = Util.formatHour(hourUVData.uv_time);
-            weatherData = weatherData.map((hourWeatherData) => {
-                if (hourWeatherData.hour === formattedHour) {
-                    hourWeatherData.uv_index = Util.roundDecimals(hourUVData.uv, 1);
+            let uvTime = hourUVData.uv_time.split(':')[0];
+            for (let i=0; i<weatherData.length; i++) {
+                let weatherTime = weatherData[i].observation_time.value.split(':')[0];
+                if (uvTime < weatherTime) {
+                    break;
                 }
-                return hourWeatherData;
-            });
+                if (uvTime === weatherTime) {
+                    weatherData[i].uv_index = Util.roundDecimals(hourUVData.uv, 1);
+                    break;
+                }
+            }
         });
         return weatherData;
     };
