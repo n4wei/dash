@@ -131,7 +131,12 @@ class WeatherHourlyCards extends React.Component {
             <>
                 <Row>
                     <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
-                        <h2>Hourly Weather - <i className='wi wi-sunrise dash-sun-icon'> {sunrise}</i>{' / '}<i className='wi wi-horizon dash-sun-icon'> {sunset}</i></h2>
+                        <h2>
+                            Hourly Weather
+                            <span className='dash-sun-icon dash-horizontal-offset'>
+                                <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i>
+                            </span>
+                        </h2>
                     </button>
                 </Row>
                 <Collapse in={this.state.isVisible}>
