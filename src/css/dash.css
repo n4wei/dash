@@ -7,11 +7,15 @@
     left: 30px;
 }
 
+.dash-sun-icon {
+    color: orange;
+}
+
 .dash-weather-hourly-card {
-    width: 10rem;
+    width: auto;
 }
 .dash-weather-daily-card {
-    width: 10rem;
+    width: 8rem;
 }
 .dash-stock-quote-card {
     width: 11rem;
@@ -27,9 +31,9 @@
     color: tomato;
 }
 .dash-cards-title:hover {
-    border-color: gray;
+    border-color: crimson;
     background-color: whitesmoke;
-    color: gray;
+    color: crimson;
 }
 .dash-cards-title:focus {
     outline: none;

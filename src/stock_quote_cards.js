@@ -41,17 +41,16 @@ class StockQuoteCards extends React.Component {
         }
 
         let stockQuotes = [];
-
         stocks.forEach((stock) => {
-            this.getStockQuoteDataFromAPI(stock.symbol).then((data) => {
-                console.log('new', data);
+            this.getStockQuoteDataFromAPI(stock.symbol).then((newData) => {
+                console.log('new', newData);
                 stockQuotes.push({
                     symbol: stock.symbol === '^GSPC' ? 'SP500' : stock.symbol,
-                    current: Util.roundDecimals(data.c, stock.decimals),
-                    time: Util.formatTime(data.t*1000),
-                    open: Util.roundDecimals(data.o, stock.decimals),
-                    low: Util.roundDecimals(data.l, stock.decimals),
-                    high: Util.roundDecimals(data.h, stock.decimals),
+                    current: Util.roundDecimals(newData.c, stock.decimals),
+                    time: Util.formatTime(newData.t*1000),
+                    open: Util.roundDecimals(newData.o, stock.decimals),
+                    low: Util.roundDecimals(newData.l, stock.decimals),
+                    high: Util.roundDecimals(newData.h, stock.decimals),
                 });
 
                 if (stockQuotes.length === stocks.length) {
@@ -66,6 +65,7 @@ class StockQuoteCards extends React.Component {
 
     toggleIsVisible() {
         this.titleButton.blur();
+
         this.setState({
             stockQuotes: this.state.stockQuotes,
             isVisible: !this.state.isVisible,

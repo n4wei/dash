@@ -20,8 +20,6 @@ class WeatherDailyCards extends React.Component {
             weather: [],
             isVisible: true,
         };
-
-        this.refreshWeather();
     };
 
     componentDidUpdate(prevProps) {
@@ -49,53 +47,28 @@ class WeatherDailyCards extends React.Component {
     };
 
     getLatestWeatherData() {
-        let weather_original = this.state.weather_original.slice();
-        let shouldGetNewWeatherData = false;
-
-        if (weather_original.length < numDaysToDisplay) {
-            shouldGetNewWeatherData = true;
-        } else {
-            let currentDate = Util.formatDateISOLocal(new Date());
-            let i = 0;
-            while (i < weather_original.length && weather_original[i].observation_time.value <= currentDate) {
-                i++
-            }
-            weather_original = weather_original.slice(i-1);
-            console.log('sliced', weather_original);
-            if (weather_original.length < numDaysToDisplay) {
-                shouldGetNewWeatherData = true;
-            }
-        }
-
-        if (shouldGetNewWeatherData) {
-            this.getWeatherDataFromAPI().then((newWeatherData) => {
-                console.log('new', newWeatherData);
-                this.setState({
-                    weather_original: newWeatherData,
-                    weather: this.formatWeatherData(newWeatherData),
-                    isVisible: this.state.isVisible,
-                });
-            });
-        } else {
+        this.getWeatherDataFromAPI().then((newWeatherData) => {
+            console.log('new', newWeatherData);
             this.setState({
-                weather_original: weather_original,
-                weather: this.formatWeatherData(weather_original),
+                weather_original: newWeatherData,
+                weather: this.formatWeatherData(newWeatherData),
                 isVisible: this.state.isVisible,
             });
-        }
+        });
     };
 
     formatWeatherData(weatherData) {
-        return weatherData.slice(0,numDaysToDisplay).map((dailyData) => {
-            dailyData.weekday = Util.formatWeekday(dailyData.observation_time.value);
-            dailyData.temp[0].min.value = Math.round(dailyData.temp[0].min.value, 1);
-            dailyData.temp[1].max.value = Math.round(dailyData.temp[1].max.value, 1);
-            return dailyData;
+        return weatherData.slice(0,numDaysToDisplay).map((dayData) => {
+            dayData.weekday = Util.formatWeekday(dayData.observation_time.value);
+            dayData.temp[0].min.value = Math.round(dayData.temp[0].min.value, 1);
+            dayData.temp[1].max.value = Math.round(dayData.temp[1].max.value, 1);
+            return dayData;
         });
     };
 
     toggleIsVisible() {
         this.titleButton.blur();
+
         this.setState({
             weather_original: this.state.weather_original,
             weather: this.state.weather,
@@ -106,8 +79,8 @@ class WeatherDailyCards extends React.Component {
     render() {
         let weatherDailyCards;
         if (this.state.weather.length > 0) {
-            weatherDailyCards = this.state.weather.slice().map((dailyData, i) => {
-                return <WeatherDailyCard key={'weather-daily-'+i} data={dailyData}></WeatherDailyCard>;
+            weatherDailyCards = this.state.weather.slice().map((dayData, i) => {
+                return <WeatherDailyCard key={'weather-daily-'+i} data={dayData}></WeatherDailyCard>;
             });
         }
 

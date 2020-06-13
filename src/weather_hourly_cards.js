@@ -21,8 +21,6 @@ class WeatherHourlyCards extends React.Component {
             weather: [],
             isVisible: true,
         };
-
-        this.refreshWeather();
     };
 
     componentDidUpdate(prevProps) {
@@ -49,6 +47,34 @@ class WeatherHourlyCards extends React.Component {
         .catch(err => console.error(err));
         return response.json();
     }
+
+    refreshWeather() {
+        if (this.refreshButton !== undefined) {
+            this.refreshButton.blur();
+        }
+
+        if (Object.keys(this.props.location).length > 0) {
+            this.getLatestWeatherData();
+        }
+    };
+
+    getLatestWeatherData() {
+        this.getWeatherDataFromAPI().then((newWeatherData) => {
+            console.log('new', newWeatherData);
+
+            this.getUVDataFromAPI().then((newUVData) => {
+                newUVData = newUVData.result;
+                console.log('new', newUVData);
+
+                this.setState({
+                    weather_original: newWeatherData,
+                    uv_original: newUVData,
+                    weather: this.mergeUVData(newUVData, this.formatWeatherData(newWeatherData)),
+                    isVisible: this.state.isVisible,
+                });
+            });
+        });
+    };
 
     formatWeatherData(weatherData) {
         return weatherData.slice(0,numHoursToDisplay).map((hourData) => {
@@ -79,88 +105,9 @@ class WeatherHourlyCards extends React.Component {
         return weatherData;
     };
 
-    getLatestUVData(weatherData_original, weatherData) {
-        let uv_original = this.state.uv_original.slice();
-        let shouldGetNewUVData = false;
-
-        if (uv_original.length === 0) {
-            shouldGetNewUVData = true;
-        } else {
-            let currentTime = new Date().toISOString();
-            let i = 0;
-            while (i < uv_original.length && new Date(uv_original[i].uv_time).toISOString() <= currentTime) {
-                i++
-            }
-            if (i === uv_original.length) {
-                shouldGetNewUVData = true;
-            } else {
-                uv_original = uv_original.slice(i-1);
-                console.log('sliced', uv_original);
-            }
-        }
-
-        if (shouldGetNewUVData) {
-            this.getUVDataFromAPI().then((newUVData) => {
-                newUVData = newUVData.result;
-                console.log('new', newUVData);
-                this.setState({
-                    weather_original: weatherData_original,
-                    uv_original: newUVData,
-                    weather: this.mergeUVData(newUVData, weatherData),
-                    isVisible: this.state.isVisible,
-                });
-            });
-        } else {
-            this.setState({
-                weather_original: weatherData_original,
-                uv_original: uv_original,
-                weather: this.mergeUVData(uv_original, weatherData),
-                isVisible: this.state.isVisible,
-            });
-        }
-    };
-
-    getLatestWeatherData() {
-        let weather_original = this.state.weather_original.slice();
-        let shouldGetNewWeatherData = false;
-
-        if (weather_original.length < numHoursToDisplay) {
-            shouldGetNewWeatherData = true;
-        } else {
-            let currentTime = new Date().toISOString();
-            let i = 0;
-            while (i < weather_original.length && new Date(weather_original[i].observation_time.value).toISOString() <= currentTime) {
-                i++
-            }
-            weather_original = weather_original.slice(i-1);
-            console.log('sliced', weather_original);
-            if (weather_original.length < numHoursToDisplay) {
-                shouldGetNewWeatherData = true;
-            }
-        }
-
-        if (shouldGetNewWeatherData) {
-            this.getWeatherDataFromAPI().then((newWeatherData) => {
-                console.log('new', newWeatherData);
-                this.getLatestUVData(newWeatherData, this.formatWeatherData(newWeatherData));
-            });
-        } else {
-            this.getLatestUVData(weather_original, this.formatWeatherData(weather_original));
-        }
-    };
-
-    refreshWeather() {
-        if (this.refreshButton !== undefined) {
-            this.refreshButton.blur();
-        }
-
-        if (Object.keys(this.props.location).length > 0) {
-            this.getLatestWeatherData();
-        }
-    };
-
     toggleIsVisible() {
         this.titleButton.blur();
+
         this.setState({
             weather_original: this.state.weather_original,
             uv_original: this.state.uv_original,
@@ -175,8 +122,8 @@ class WeatherHourlyCards extends React.Component {
             const weatherData = this.state.weather.slice();
             sunrise = Util.formatTime(weatherData[0].sunrise.value);
             sunset = Util.formatTime(weatherData[0].sunset.value);
-            weatherHourlyCards = weatherData.map((weatherData, i) => {
-                return <WeatherHourlyCard key={'weather-hourly-'+i} data={weatherData}></WeatherHourlyCard>;
+            weatherHourlyCards = weatherData.map((hourData, i) => {
+                return <WeatherHourlyCard key={'weather-hourly-'+i} data={hourData}></WeatherHourlyCard>;
             });
         }
 
@@ -184,7 +131,7 @@ class WeatherHourlyCards extends React.Component {
             <>
                 <Row>
                     <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
-                        <h2>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2>
+                        <h2>Hourly Weather - <i className='wi wi-sunrise dash-sun-icon'> {sunrise}</i>{' / '}<i className='wi wi-horizon dash-sun-icon'> {sunset}</i></h2>
                     </button>
                 </Row>
                 <Collapse in={this.state.isVisible}>
