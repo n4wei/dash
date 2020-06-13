@@ -10,22 +10,36 @@ const dateFormatOpts = {
     day: 'numeric',
 };
 
+const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
+
 var Util = {
     formatHour: function(timeStr) {
         let parts = new Date(timeStr).toLocaleTimeString('en-US').split(':');
         return parts[0] + parts[2].split(' ')[1];
     },
 
+    formatWeekday: function(timeStr) {
+        return weekdays[new Date(timeStr).getUTCDay()];
+    },
+
     formatTime: function(timeStr) {
         return new Date(timeStr).toLocaleTimeString('en-US', timeFormatOpts);
     },
 
-    formatDate: function(timeStr) {
-        return new Date(timeStr).toLocaleDateString('en-US', dateFormatOpts)
-    },
-
     formatTimeLexi: function(timeStr) {
         return new Date(timeStr).toLocaleTimeString('en-US', {hour12:false});
+    },
+
+    formatDate: function(timeStr) {
+        return new Date(timeStr).toLocaleDateString('en-US', dateFormatOpts);
+    },
+
+    formatDateISOLocal: function(timeObj) {
+        let month = timeObj.getMonth()+1;
+        month = month < 10 ? '0'+month : month;
+        let date = timeObj.getDate();
+        date = date < 10 ? '0'+date : date;
+        return timeObj.getFullYear() + '-' + month + '-' + date;
     },
 
     roundDecimals: function(num, decimals) {

@@ -105,15 +105,15 @@ class WeatherHourlyCards extends React.Component {
                 newUVData = newUVData.result;
                 console.log('new', newUVData);
                 this.setState({
-                    weather_original: weatherData_original.slice(),
-                    uv_original: newUVData.slice(),
+                    weather_original: weatherData_original,
+                    uv_original: newUVData,
                     weather: this.mergeUVData(newUVData, weatherData),
                     isVisible: this.state.isVisible,
                 });
             });
         } else {
             this.setState({
-                weather_original: weatherData_original.slice(),
+                weather_original: weatherData_original,
                 uv_original: uv_original,
                 weather: this.mergeUVData(uv_original, weatherData),
                 isVisible: this.state.isVisible,
@@ -125,7 +125,7 @@ class WeatherHourlyCards extends React.Component {
         let weather_original = this.state.weather_original.slice();
         let shouldGetNewWeatherData = false;
 
-        if (weather_original.length === 0) {
+        if (weather_original.length < numHoursToDisplay) {
             shouldGetNewWeatherData = true;
         } else {
             let currentTime = new Date().toISOString();
@@ -166,13 +166,13 @@ class WeatherHourlyCards extends React.Component {
     };
 
     render() {
-        let sunrise, sunset, weatherCards;
+        let sunrise, sunset, weatherHourlyCards;
         if (this.state.weather.length > 0) {
             const weatherData = this.state.weather.slice();
             sunrise = Util.formatTime(weatherData[0].sunrise.value);
             sunset = Util.formatTime(weatherData[0].sunset.value);
-            weatherCards = weatherData.map((weatherData, i) => {
-                return <WeatherHourlyCard key={i} data={weatherData}></WeatherHourlyCard>;
+            weatherHourlyCards = weatherData.map((weatherData, i) => {
+                return <WeatherHourlyCard key={'weather-hourly-'+i} data={weatherData}></WeatherHourlyCard>;
             });
         }
 
@@ -183,7 +183,7 @@ class WeatherHourlyCards extends React.Component {
                     <Col><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Col>
                 </Row>
                 <Collapse in={this.state.isVisible}>
-                    <Row><CardGroup>{weatherCards}</CardGroup></Row>
+                    <Row><CardGroup>{weatherHourlyCards}</CardGroup></Row>
                 </Collapse>
             </>
         );

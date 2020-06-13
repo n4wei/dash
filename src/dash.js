@@ -9,6 +9,7 @@ import Row from 'react-bootstrap/Row';
 
 import TimeDate from './time_date.js';
 import WeatherHourlyCards from './weather_hourly_cards.js';
+import WeatherDailyCards from './weather_daily_cards.js';
 import StockQuoteCards from './stock_quote_cards.js';
 
 class Dash extends React.Component {
@@ -43,6 +44,8 @@ class Dash extends React.Component {
                 <TimeDate/>
                 {divider}
                 <WeatherHourlyCards location={this.state.location}/>
+                {divider}
+                <WeatherDailyCards location={this.state.location}/>
                 {divider}
                 <StockQuoteCards/>
                 {divider}

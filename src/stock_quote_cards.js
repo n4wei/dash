@@ -72,7 +72,7 @@ class StockQuoteCards extends React.Component {
         let stockQuoteCards;
         if (this.state.stockQuotes.length > 0) {
             stockQuoteCards = this.state.stockQuotes.slice().map((stockQuoteData, i) => {
-                return <StockQuoteCard key={i} data={stockQuoteData}></StockQuoteCard>;
+                return <StockQuoteCard key={'stock-quote-'+i} data={stockQuoteData}></StockQuoteCard>;
             });
         }
 
