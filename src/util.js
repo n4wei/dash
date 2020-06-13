@@ -43,6 +43,7 @@ var Util = {
     },
 
     roundDecimals: function(num, decimals) {
+        decimals = decimals < 0 ? 0 : decimals;
         return Number(Math.round(num+'e'+decimals)+'e-'+decimals);
     },
 };

@@ -9,11 +9,9 @@ import StockQuoteCard from './stock_quote_card.js';
 import Util from './util.js';
 import Secrets from './config/secrets.json';
 
-const stocks = [
-    {symbol: 'BOX', decimals: 2},
-    {symbol: 'GILD', decimals: 2},
-    {symbol: '^GSPC', decimals: 0},
-];
+const stocks = ['BOX','GILD','^GSPC'];
+
+const maxPriceDigits = 5;
 
 class StockQuoteCards extends React.Component {
     constructor(props) {
@@ -42,15 +40,26 @@ class StockQuoteCards extends React.Component {
 
         let stockQuotes = [];
         stocks.forEach((stock) => {
-            this.getStockQuoteDataFromAPI(stock.symbol).then((newData) => {
+            this.getStockQuoteDataFromAPI(stock).then((newData) => {
                 console.log('new', newData);
+
+                let decimalsToRound;
+                let price = String(newData.c);
+                if (price.indexOf('.') === -1) {
+                    decimalsToRound = 0;
+                } else {
+                    decimalsToRound = maxPriceDigits - price.split('.')[0].length - 1;
+                    decimalsToRound = decimalsToRound > 2 ? 2 : decimalsToRound;
+                    decimalsToRound = decimalsToRound < 0 ? 0 : decimalsToRound;
+                }
+
                 stockQuotes.push({
-                    symbol: stock.symbol === '^GSPC' ? 'SP500' : stock.symbol,
-                    current: Util.roundDecimals(newData.c, stock.decimals),
+                    symbol: stock === '^GSPC' ? 'SP500' : stock,
+                    current: Util.roundDecimals(newData.c, decimalsToRound),
                     time: Util.formatTime(newData.t*1000),
-                    open: Util.roundDecimals(newData.o, stock.decimals),
-                    low: Util.roundDecimals(newData.l, stock.decimals),
-                    high: Util.roundDecimals(newData.h, stock.decimals),
+                    open: Util.roundDecimals(newData.o, decimalsToRound),
+                    low: Util.roundDecimals(newData.l, decimalsToRound),
+                    high: Util.roundDecimals(newData.h, decimalsToRound),
                 });
 
                 if (stockQuotes.length === stocks.length) {
