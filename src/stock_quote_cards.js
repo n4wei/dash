@@ -3,6 +3,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardDeck from 'react-bootstrap/CardDeck';
+import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
@@ -78,12 +79,16 @@ class StockQuoteCards extends React.Component {
 
         return (
             <>
-                <Row>
-                    <Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Stock Quotes</h2></Col>
-                    <Col><Button variant='primary' onClick={()=>this.refreshStockQuotes()}><i className='wi wi-refresh'/></Button></Col>
-                </Row>
+                <Row><Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Stock Quotes</h2></Col></Row>
                 <Collapse in={this.state.isVisible}>
-                    <Row><CardDeck>{stockQuoteCards}</CardDeck></Row>
+                    <Row>
+                        <CardDeck>
+                            {stockQuoteCards}
+                            <Card className='dash-borderless'>
+                                <Card.Body><Button variant='primary' onClick={()=>this.refreshStockQuotes()}><i className='wi wi-refresh'/></Button></Card.Body>
+                            </Card>
+                        </CardDeck>
+                    </Row>
                 </Collapse>
             </>
         );

@@ -3,6 +3,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
@@ -10,7 +11,7 @@ import WeatherHourlyCard from './weather_hourly_card.js';
 import Util from './util.js';
 import Secrets from './config/secrets.json';
 
-const numHoursToDisplay = 12;
+const numHoursToDisplay = 11;
 
 class WeatherHourlyCards extends React.Component {
     constructor(props) {
@@ -178,12 +179,16 @@ class WeatherHourlyCards extends React.Component {
 
         return (
             <>
-                <Row>
-                    <Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2></Col>
-                    <Col><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Col>
-                </Row>
+                <Row><Col><h2 className='dash-interactive' onClick={()=>this.toggleIsVisible()}>Weather - <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i></h2></Col></Row>
                 <Collapse in={this.state.isVisible}>
-                    <Row><CardGroup>{weatherHourlyCards}</CardGroup></Row>
+                    <Row>
+                        <CardGroup>
+                            {weatherHourlyCards}
+                            <Card className='dash-borderless'>
+                                <Card.Body><Button variant='primary' onClick={()=>this.refreshWeather()}><i className='wi wi-refresh'/></Button></Card.Body>
+                            </Card>
+                        </CardGroup>
+                    </Row>
                 </Collapse>
             </>
         );

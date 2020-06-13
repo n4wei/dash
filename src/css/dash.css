@@ -1,3 +1,16 @@
 .dash-interactive {
     color: tomato;
 }
+.dash-borderless {
+    border-color: white;
+}
+
+.dash-weather-hourly-card {
+    width: 10rem;
+}
+.dash-weather-daily-card {
+    width: 10rem;
+}
+.dash-stock-quote-card {
+    width: 11rem;
+}

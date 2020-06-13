@@ -4,7 +4,7 @@ import WeatherIcon from './weather_icon.js';
 
 function WeatherHourlyCard(props) {
     return (
-        <Card className='text-center' style={{ width: '10rem' }}>
+        <Card className='text-center dash-weather-hourly-card'>
             <Card.Header><h5><WeatherIcon data={props.data} forceDaytime={false}/> {props.data.hour}</h5></Card.Header>
             <Card.Body>
                 <Card.Text><i className='wi wi-thermometer'></i> {props.data.temp.value+props.data.temp.units}</Card.Text>

@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 function StockQuoteCard(props) {
     return (
-        <Card className='text-center' style={{ width: '10rem' }}>
+        <Card className='text-center dash-stock-quote-card'>
             <Card.Body>
                 <Card.Title><b>{props.data.symbol}</b></Card.Title>
                 <Card.Text><b>{props.data.current}</b>{' @'+props.data.time}</Card.Text>
