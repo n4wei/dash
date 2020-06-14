@@ -93,7 +93,7 @@ class StockQuoteCards extends React.Component {
             <>
                 <Row>
                     <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
-                        <h2>Stock Quotes</h2>
+                        <h2 className='dash-horizontal-offset-10'>Stock Quotes</h2>
                     </button>
                 </Row>
                 <Collapse in={this.state.isVisible}>

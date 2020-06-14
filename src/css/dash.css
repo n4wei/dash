@@ -2,7 +2,11 @@
     border-color: white;
 }
 
-.dash-horizontal-offset {
+.dash-horizontal-offset-10 {
+    position: relative;
+    left: 10px;
+}
+.dash-horizontal-offset-30 {
     position: relative;
     left: 30px;
 }
@@ -15,7 +19,7 @@
     width: auto;
 }
 .dash-weather-daily-card {
-    width: 8rem;
+    width: 9rem;
 }
 .dash-stock-quote-card {
     width: 11rem;
@@ -25,7 +29,7 @@
     width: 100%;
     border-style: none none none solid;
     border-width: 4px;
-    border-radius: 0px;
+    border-radius: 10px;
     border-color: tomato;
     background-color: white;
     color: tomato;

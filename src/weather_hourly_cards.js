@@ -121,7 +121,9 @@ class WeatherHourlyCards extends React.Component {
     };
 
     render() {
-        let sunrise, sunset, weatherHourlyCards;
+        let sunrise = '--:--';
+        let sunset = '--:--';
+        let weatherHourlyCards;
         if (this.state.weather.length > 0) {
             const weatherData = this.state.weather.slice();
             sunrise = Util.formatTime(weatherData[0].sunrise.value);
@@ -136,9 +138,12 @@ class WeatherHourlyCards extends React.Component {
                 <Row>
                     <button className='text-left dash-cards-title' onClick={()=>this.toggleIsVisible()} ref={(element)=>this.titleButton=element}>
                         <h2>
-                            Hourly Weather
-                            <span className='dash-sun-icon dash-horizontal-offset'>
-                                <i className='wi wi-sunrise'> {sunrise}</i>{' / '}<i className='wi wi-horizon'> {sunset}</i>
+                            <span className='dash-horizontal-offset-10'>Hourly Weather</span>
+                            <span className='dash-sun-icon dash-horizontal-offset-30'>
+                                <i className='wi wi-sunrise'/>
+                                {' '+sunrise+' / '}
+                                <i className='wi wi-horizon'/>
+                                {' '+sunset}
                             </span>
                         </h2>
                     </button>
@@ -148,7 +153,7 @@ class WeatherHourlyCards extends React.Component {
                         <CardGroup>
                             {weatherHourlyCards}
                             <Card className='dash-borderless'>
-                                <button className='dash-refresh-button dash-horizontal-offset' onClick={()=>this.refreshWeather()} ref={(element)=>this.refreshButton=element}><i className='wi wi-refresh'/></button>
+                                <button className='dash-refresh-button dash-horizontal-offset-30' onClick={()=>this.refreshWeather()} ref={(element)=>this.refreshButton=element}><i className='wi wi-refresh'/></button>
                             </Card>
                         </CardGroup>
                     </Row>
