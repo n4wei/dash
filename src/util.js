@@ -4,12 +4,6 @@ const timeFormatOpts = {
     minute: '2-digit',
 };
 
-const dateFormatOpts = {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-};
-
 const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thur', 'Fri', 'Sat'];
 
 var Util = {
@@ -28,10 +22,6 @@ var Util = {
 
     formatTimeLexi: function(timeStr) {
         return new Date(timeStr).toLocaleTimeString('en-US', {hour12:false});
-    },
-
-    formatDate: function(timeStr) {
-        return new Date(timeStr).toLocaleDateString('en-US', dateFormatOpts);
     },
 
     formatDateISOLocal: function(timeObj) {

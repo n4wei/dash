@@ -7,7 +7,7 @@ import './css/dash.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import TimeDate from './time_date.js';
+import TimeDay from './time_day.js';
 import WeatherHourlyCards from './weather_hourly_cards.js';
 import WeatherDailyCards from './weather_daily_cards.js';
 import StockQuoteCards from './stock_quote_cards.js';
@@ -41,7 +41,7 @@ class Dash extends React.Component {
 
         return (
             <Container>
-                <TimeDate/>
+                <TimeDay/>
                 {divider}
                 <WeatherHourlyCards location={this.state.location}/>
                 {divider}

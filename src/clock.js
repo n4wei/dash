@@ -1,5 +1,7 @@
 import React from 'react';
 
+const updateInterval = 1000; // 1 second
+
 class Clock extends React.Component {
     constructor(props) {
         super(props);
@@ -9,8 +11,16 @@ class Clock extends React.Component {
         };
     };
 
-    pad(num) {
-        return num < 10 ? '0'+num : num;
+    componentDidMount() {
+        this.intervalID = setInterval(() => {
+            this.setState({
+                time: this.getTime(),
+            });
+        }, updateInterval);
+    };
+
+    componentWillUnmount() {
+        clearInterval(this.intervalID);
     };
 
     getTime() {
@@ -18,16 +28,8 @@ class Clock extends React.Component {
         return this.pad(date.getHours()) + ':' + this.pad(date.getMinutes());
     };
 
-    componentDidMount() {
-        this.intervalID = setInterval(() => {
-            this.setState({
-                time: this.getTime(),
-            });
-        }, 1000);
-    };
-
-    componentWillUnmount() {
-        clearInterval(this.intervalID);
+    pad(num) {
+        return num < 10 ? '0'+num : num;
     };
 
     render() {
